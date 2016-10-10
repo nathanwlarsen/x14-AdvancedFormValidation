@@ -8,15 +8,14 @@ function validate(){
     document.getElementById("usernameGroup").classList.add("has-success");
 
   }
-  else {
-    {
-      //Show message that there is an error with the username...
-      document.getElementById("usernameError").innerHTML="Bad username.";
-      document.getElementById("usernameError").classList.remove("hidden-message");
-      document.getElementById("usernameError").classList.add("shown-message");
-      //Turn the username items red
-      document.getElementById("usernameGroup").classList.add("has-error");
-    }
+  else
+  {
+    //Show message that there is an error with the username...
+    document.getElementById("usernameError").innerHTML="Bad username.";
+    document.getElementById("usernameError").classList.remove("hidden-message");
+    document.getElementById("usernameError").classList.add("shown-message");
+    //Turn the username items red
+    document.getElementById("usernameGroup").classList.add("has-error");
   }
 
   if(passEntered == "password")
