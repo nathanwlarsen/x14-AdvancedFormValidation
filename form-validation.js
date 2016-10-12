@@ -15,7 +15,7 @@ function validate(){
   if(userEntered.indexOf(' ') >= 0 )
   {
     //Show message that there is an error with the username...
-    document.getElementById("usernameError").innerHTML="Username must have at least 6 characters.";
+    document.getElementById("usernameError").innerHTML="Username cannot contain spaces.";
     document.getElementById("usernameError").classList.remove("hidden-message");
     document.getElementById("usernameError").classList.add("shown-message");
     //Turn the username items red
